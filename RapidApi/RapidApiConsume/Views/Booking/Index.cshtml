@@ -1,0 +1,45 @@
+﻿@model IEnumerable<RapidApiConsume.Models.BookingViewModel.Result>
+
+@{
+    ViewData["Title"] = "Index";
+    int count = 0;
+}
+@if (Model == null)
+{
+
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    #
+                </th>
+                <th>
+                    Hotel Name
+                </th>
+                <th>
+                    Point
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                count++;
+                <tr>
+                    <td>
+                        @count
+                    </td>
+                    <td>
+                        @item.name
+                    </td>
+                    <td>
+                        @item.reviewScore
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

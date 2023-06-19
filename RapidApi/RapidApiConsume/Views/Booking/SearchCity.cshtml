@@ -1,0 +1,23 @@
+﻿@model List<RapidApiConsume.Models.BookingCityIdViewModel>
+@{
+    ViewData["Title"] = "SearchCity";
+}
+
+<h1>SearchCity</h1>
+<form method="post">
+    <input type="text" name="cityName" />
+    <button>Search</button>
+</form>
+
+@if (Model != null)
+{
+    <table>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><a href="@Url.Action("Index","Booking", new { dest_id = item.dest_id })">@item.name</a></td>
+            </tr>
+        }
+    </table>
+}
