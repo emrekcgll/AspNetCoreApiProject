@@ -1,4 +1,5 @@
 C:\Users\Admin11\Desktop\ApiProject\ApiConsume\DtoLayer\bin\Debug\net6.0\DtoLayer.deps.json
+C:\Users\Admin11\Desktop\ApiProject\ApiConsume\DtoLayer\bin\Debug\net6.0\DtoLayer.runtimeconfig.json
 C:\Users\Admin11\Desktop\ApiProject\ApiConsume\DtoLayer\bin\Debug\net6.0\DtoLayer.dll
 C:\Users\Admin11\Desktop\ApiProject\ApiConsume\DtoLayer\bin\Debug\net6.0\DtoLayer.pdb
 C:\Users\Admin11\Desktop\ApiProject\ApiConsume\DtoLayer\obj\Debug\net6.0\DtoLayer.csproj.AssemblyReference.cache
@@ -9,4 +10,5 @@ C:\Users\Admin11\Desktop\ApiProject\ApiConsume\DtoLayer\obj\Debug\net6.0\DtoLaye
 C:\Users\Admin11\Desktop\ApiProject\ApiConsume\DtoLayer\obj\Debug\net6.0\DtoLayer.dll
 C:\Users\Admin11\Desktop\ApiProject\ApiConsume\DtoLayer\obj\Debug\net6.0\refint\DtoLayer.dll
 C:\Users\Admin11\Desktop\ApiProject\ApiConsume\DtoLayer\obj\Debug\net6.0\DtoLayer.pdb
+C:\Users\Admin11\Desktop\ApiProject\ApiConsume\DtoLayer\obj\Debug\net6.0\DtoLayer.genruntimeconfig.cache
 C:\Users\Admin11\Desktop\ApiProject\ApiConsume\DtoLayer\obj\Debug\net6.0\ref\DtoLayer.dll
