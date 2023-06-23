@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/BZ5sbWvDxq/vF/kd100J3aspsxksF+zdaRKSX/Xe73nkEprqQRcmljoC3WLYudyOVDwlJGCdwoTr7+afaEv7w==",
+  "dgSpecHash": "3ZWDy3N8/TWCNl/ItRGQhV7MzauyLQSGUFWZ1mpl3i/O8JwmWFLwJPwE+G5LBLwknvUl9agnT2CXYpowWVr+ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\Frontend\\WebUI\\WebUI.csproj",
+  "projectFilePath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\Frontend\\WebUI\\WebUI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

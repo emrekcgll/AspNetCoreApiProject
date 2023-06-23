@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Admin11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -100,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\Admin11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,8 +128,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -193,14 +193,14 @@
         }
       }
     },
-    "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj": {
+    "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj",
         "projectName": "DtoLayer",
-        "projectPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj",
+        "projectPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj",
         "packagesPath": "C:\\Users\\Admin11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DtoLayer\\obj\\",
+        "outputPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DtoLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -282,14 +282,14 @@
         }
       }
     },
-    "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\Admin11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -371,14 +371,14 @@
         }
       }
     },
-    "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Admin11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -400,17 +400,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj": {
-                "projectPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj"
+              "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj"
               },
-              "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Admin11\\Desktop\\ApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin11\\Desktop\\AspNetCoreApiProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
