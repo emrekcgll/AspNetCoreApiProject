@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Abstract;
+using DataAccessLayer.Concrete;
 using EntityLayer.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -32,10 +33,20 @@ namespace WebApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddHotel(Hotel hotel)
+        public async Task<IActionResult> AddHotel(Hotel hotel)
         {
-            _hotelService.TCreate(hotel);
-            return Ok();
+            using (var c = new Context())
+            {
+                var location = c.Locations.FirstOrDefault(l => l.LocationID == hotel.LocationID);
+                hotel.Location = location;
+                await c.AddAsync(hotel);
+                await c.SaveChangesAsync();
+
+                return Ok();
+
+            }
+            //_hotelService.TCreate(hotel);
+
         }
 
         [HttpPut]
