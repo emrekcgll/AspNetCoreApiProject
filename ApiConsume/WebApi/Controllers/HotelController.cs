@@ -38,15 +38,19 @@ namespace WebApi.Controllers
             using (var c = new Context())
             {
                 var location = c.Locations.FirstOrDefault(l => l.LocationID == hotel.LocationID);
-                hotel.Location = location;
-                await c.AddAsync(hotel);
-                await c.SaveChangesAsync();
+                if (location != null)
+                {
+                    hotel.Location = location;
+                    await c.AddAsync(hotel);
+                    await c.SaveChangesAsync();
 
-                return Ok();
-
+                    return Ok();
+                }
+                else
+                {
+                    return BadRequest("Lokasyon mevcut değil!");
+                }
             }
-            //_hotelService.TCreate(hotel);
-
         }
 
         [HttpPut]
