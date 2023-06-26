@@ -56,8 +56,19 @@ namespace WebApi.Controllers
         [HttpPut]
         public IActionResult UpdateHotel(Hotel hotel)
         {
-            _hotelService.TUpdate(hotel);
-            return Ok();
+            using (var c = new Context())
+            {
+                var location = c.Locations.FirstOrDefault(x => x.LocationID == hotel.LocationID);
+                if (location != null)
+                {
+                    _hotelService.TUpdate(hotel);
+                    return Ok();
+                }
+                else
+                {
+                    return BadRequest("Lokasyon hatalı olduğu için güncelleme yapılamadı.");
+                }
+            }
         }
 
         [HttpDelete]
